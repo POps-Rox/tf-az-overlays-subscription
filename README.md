@@ -25,7 +25,7 @@ provider "azurerm" {
 }
 
 module "overlays-subscription" {
-  source  = "azurenoops/overlays-subscription/azurerm"
+  source  = "POps-Rox/tf-az-overlays-subscription/azurerm"
   version = "x.x.x"
   
   location = "usgovvirginia"
@@ -99,7 +99,7 @@ provider "azurerm" {
 }
 
 module "overlays-subscription" {
-  source  = "azurenoops/overlays-subscription/azurerm"
+  source  = "POps-Rox/tf-az-overlays-subscription/azurerm"
   version = "x.x.x"
   
   # Global Variables
@@ -117,7 +117,7 @@ module "overlays-subscription" {
 
 ```terraform
 module "overlays-subscription" {
-  source  = "azurenoops/overlays-subscription/azurerm"
+  source  = "POps-Rox/tf-az-overlays-subscription/azurerm"
   version = "x.x.x"
    
     # Global Variables
@@ -137,7 +137,7 @@ module "overlays-subscription" {
 
 ```terraform
 module "overlays-subscription" {
-  source  = "azurenoops/overlays-subscription/azurerm"
+  source  = "POps-Rox/tf-az-overlays-subscription/azurerm"
   version = "x.x.x"
    
     # Global Variables
@@ -158,7 +158,7 @@ module "overlays-subscription" {
 
 ```terraform
 module "overlays-subscription" {
-  source  = "azurenoops/overlays-subscription/azurerm"
+  source  = "POps-Rox/tf-az-overlays-subscription/azurerm"
   version = "x.x.x"
    
     # Global Variables
