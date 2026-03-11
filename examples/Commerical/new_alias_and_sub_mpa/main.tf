@@ -14,6 +14,6 @@ module "mod_mpa_subscription" {
   subscription_name       = "My Subscription"
   alias                   = "DevTest"
   billing_account_name    = "My Billing Account"
-  customer_name           = "My Customer"  
+  customer_name           = "My Customer"
   workload_name           = "Development"
 }

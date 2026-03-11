@@ -9,7 +9,7 @@
 variable "create_enrollment_subscription" {
   description = "Create a subscription within an Enterprise Agreement enrollment."
   type        = bool
-  default     = false  
+  default     = false
 }
 
 variable "billing_account_name" {

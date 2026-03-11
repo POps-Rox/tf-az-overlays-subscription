@@ -9,7 +9,7 @@
 variable "create_mca_subscription" {
   description = "Create a subscription within an Microsoft Customer Account."
   type        = bool
-  default     = false  
+  default     = false
 }
 
 variable "billing_account_name" {
