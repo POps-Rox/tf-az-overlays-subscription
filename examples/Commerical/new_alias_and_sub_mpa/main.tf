@@ -2,7 +2,7 @@
 # Licensed under the MIT License.
 
 module "mod_mpa_subscription" {
-  #source  = "azurenoops/overlays-subscription/azurerm"
+  #source  = "github.com/POps-Rox/tf-az-overlays-subscription"
   #version = "x.x.x"
   source = "../../.."
 
